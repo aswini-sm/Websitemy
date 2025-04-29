@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content ="aswini">
+        <meta name="description" content="how i learn html here using free codecamp"> 
+<title>My first ever page</title>
+<link rel="icon" href="drawing moon.png" type ="image/x-icon">
+<link rel="stylesheet" href ="main.css" type ="text/css">
+    </head>
+    <body>
+        <header>
+        <h1>Coding and Music</h1>   
+
+
+        
+
+        <nav aria-labelledby="primary navigation">
+            
+            <ul>
+                <li>
+                    <a href ="#html">Learn HTML</a>
+                    </li>
+                <li>
+                    <a href="#ts">Taylor Swift</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+
+        <hr>   
+
+        <article id="html">
+
+        <h2>Here iam learing text basics!</h2>  
+        <p>This is my first ever page!Oh God!</p>   
+        <section>
+        <img src="img/html.jpg" alt="HTML5 logo" title="HTML logo" width="290" height="174">
+        <figure>
+            <figcaption>An Example of HTML LOGO</figcaption>
+        </figure>
+        </section>
+
+        
+        <section>
+        <h3>My schedule for now!</h3>  
+        <p>&nbsp;&nbsp;&nbsp;I luv to do some learning here and there:</p>
+
+            <ol>
+            <li>i am learning web dev</li>
+
+            <li>iam planning what now </li>   
+            
+        
+            <li> i use resources from <abbr title="mozilla developer network">
+                <a href="https://developer.mozilla.org/">MDN</a>
+            </abbr>
+
+        </ol>
+        <aside>
+            <details>
+                <summary> Guess the <mark>number of hours</mark> i code</summary>
+                <p> I code from <time datetime="11.00">11am </time>  maybe</p>
+            </details>
+        </aside>
+        
+
+    </section>
+
+        </article>
+
+        <hr>
+    
+        <article id="ts">
+
+        <h2>Taylor swift</h2>  
+        <dl>
+            <dt>
+                The Poetic Genius!<br>
+                <br>
+
+                <figure>
+                <img src="img/images.jpg" alt="Honorary degree ts" title="NYU Honorary Degree" height="268" width="188" loading="lazy">
+                <figcaption>
+                    Taylor getting her NYU HONORARY DEGREE
+                </figcaption>
+            </figure>
+            </dt>
+            <dd> <br>She was awarded with a <strong>honorary degree</strong> from <abbr title="New York University">NYU</abbr></dd>
+
+            <dt>
+                BIOGRAPHY
+            </dt>
+            <dd> She was born in 1989 in Nashville. She even can play a <em>12-string guitar</em>.<br>
+                <figure>
+                <img src="img/ts03.jpg" alt="TTPD" title="TTPD" height="225" width="225">
+                <figcaption>
+                    An Album Cover of TTPD(Her Recent Album)
+                </figcaption>
+            </figure>
+            <br>
+                She had her debut album named <strong>"Taylor Swift"</strong>.</dd>
+
+            <dt>Her success</dt>
+            <dd>She always topped the billboards,winning many VMA's and grammys. </dd>
+        </dl>
+    
+
+        <h3><a href="https://en.wikipedia.org/wiki/The_Eras_Tour">Eras Tour</a></h3>  
+        <p>It sadly ended on <em>december 8!</em></p>  
+        <ul>
+
+        <li><p>my fav place was in:</p></li>
+       <li>
+         <address>london<br>
+        new york<br>
+        tokyo<br>
+        </address></li></ul>
+
+        <h3>Albums</h3> 
+        <table>
+            <caption>Top Five</caption> 
+            <thead>
+        
+            <tr>
+
+            <th>POSITIONS</th>
+            <th>S.NO</th>
+            <th>ALBUMS</th>
+        </tr>
+    </thead>
+
+        <tr>
+            <th>&nbsp;</th>
+            <td colspan="2">My favorites</td>
+        </tr>
+            <tbody>
+                <tr>
+                <th>FIRST</th>
+                <td>1.</td>
+                <td>TTPD</td>
+            </tr>
+            <tr>
+                <th>SECOND</th>
+                <td>2.</td>
+                <td>RED</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">THIRD</th>
+                <td rowspan="2">3.</td>
+                <td> REPUTATION</td>
+                
+            </tr>
+            <tr>
+               
+                <td>REP TV (delusional me:)</td>
+            </tr>
+            
+            <tr>
+                <th>FOURTH</th>
+                <td>4.</td>
+                <td>MIDNIGHTS</td>
+            </tr>
+            <tr>
+                <th>FIFTH</th>
+                <td>5.</td>
+                <td>LOVER</td>
+            </tr>
+            
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">These albums makes me drift to places i have never been before</td>
+            </tr>
+        </tfoot>
+       
+        </table>
+        
+        </article>
+        <hr>
+
+        <article id="contact">
+            <h2>Contact Me</h2>
+            <p>I'd like to hear from you!</p>
+
+        <form action="https://httpbin.org/get"
+                method="get">
+        <fieldset> 
+                <legend>Personal Info</legend>
+            <p>
+            <label for="firstname">First Name:</label>
+
+
+            <input type="text" name="firstname" id="firstname" placeholder="eg.,jane" autocomplete="on" required >
+            </p>
+
+            <p>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="eg.,doe" autocomplete="on" required>
+            </p>
+            <p>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+            </p>
+            <p>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="111-111-1111" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </p>
+            <p>
+            <label for="decade">Favorite Decade:</label>
+            <input type="number" name="decade" id="decade" 
+             min="1950" max="2020" step="10" value="1980">
+            </p>
+            <p>
+                <label for="coffee">Favorite Coffee:</label>
+                <select name="coffee" id="coffee">
+                    <optgroup label="Coffees">
+                    <option value="regular coffee">Regular Coffee</option>
+                    <option value="iced coffee">Iced Coffee</option>
+                </optgroup>
+                <optgroup label="Expresso Drinks">
+                    <option value="latte" selected>Latte</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="cortado">Cortado</option>
+                    <option value="americano">Americano</option>
+                    <option value="others">Others</option>
+                </optgroup>
+                </select>
+            </p>
+            <!--another way of doing this
+             <p>
+                <label for="coffee">Favourite coffee:</label>
+                <input type="text" name="coffee" id="coffee" list="coffe_list">
+                <datalist id="coffe_list">
+                    <option value="Coffee">
+                    <option value="Latte">
+                    <option value="Espresso">
+                    <option value="Cortado">
+                    <option value="Americano">
+                    <option value="Other">
+                </datalist>
+            </p> -->
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Your Favourite Album</legend>
+            <p>
+                <input type="radio" name="album" id="reputation" value="reputation">
+                <label for="reputation">Reputation</label>
+            </p>
+            <p>
+                <input type="radio" name="album" id="red" value="red">
+                <label for="red">RED</label>
+            </p>
+            <p>
+                <input type="radio" name="album" id="ttpd" value="ttpd">
+                <label for="ttpd">TTPD</label>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Are you waiting for REP TV?</legend>
+            <p>
+                <input type="checkbox" name="rep" id="yes" value="yes">
+                <label for="yes">Yes</label>
+            </p>
+            <p>
+                <input type="checkbox" name="rep" id="no" value="no">
+                <label for="no">No</label>
+            </p>
+            <p>
+                <input type="checkbox" name="rep" id="yea" value="yea">
+                <label for="yea">YES and we are Clowns!!</label>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Send me your favorite lyrics</legend>
+            <label for="message">Favorite Lyric:</label>
+            <br>
+            <textarea name="message" id="message" cols="60" rows="6"
+            placeholder="Type your favorite lyric~"></textarea>
+        </fieldset>
+        <br>
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+    </form>
+        </article>
+</main>
+
+
+
+        <hr>
+        <footer>
+            <p>
+
+        &lt;&lt;&lt;&copy;<a href="about.html"> Aswini</a> &gt;&gt;&gt;
+    </p>
+
+
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+
+    
+        
+
+    </body>
+
+</html>     
